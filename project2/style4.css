@@ -1,0 +1,33 @@
+:root {
+    --primery-color: yellow;
+    --secondary-color : gray;
+}
+
+div {
+    width: 250px;
+    height: 250px;
+}
+
+#div1 {
+    background: black;
+    background: var(--primery-color,red);
+    position: absolute;
+    z-index: 1;
+}
+#div2 {
+    background: rgb(11, 25, 226); 
+    background: var(--secondary-color,brown);
+    left: 150px;
+    top: 150px;
+    position: absolute;
+    z-index: -2;
+
+}
+@media  screen and (max-width:500px) {
+    :root {
+        --primery-color: green;
+        --secondary-color : orange;
+    }
+
+    
+}

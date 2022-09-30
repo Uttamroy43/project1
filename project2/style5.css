@@ -1,0 +1,21 @@
+.container {
+    background-color: blueviolet;
+    display: flex;
+    height: 200px;
+    /*flex-wrap: wrap;
+    flex-direction: row;*/
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+}
+.container > div {
+    width: 100px;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(59, 204, 15);
+
+
+}

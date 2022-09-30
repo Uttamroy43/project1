@@ -1,0 +1,31 @@
+.div1 {
+    border: 3px solid black;
+    padding: 20px;
+    position: static;
+}
+.div2 {
+    border: 3px solid yellow;
+    padding: 10px;
+    position: relative;
+    left: 20px;
+}
+.navbar {
+    border: 1px solid burlywood;
+    padding: 5px;
+    position: fixed;
+    left: 5px;
+}
+
+.div3 {
+    border: 5px solid rgb(145, 88, 13);
+    padding: 5px;
+    position: relative;
+    height: 250px;
+}
+.div4 {
+    border: 3px solid rgb(145, 88, 13);
+    padding: 5px;
+    position: absolute;
+    right: 0px;
+    top: 220px;
+}

@@ -1,0 +1,40 @@
+.overflow {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(18, 125, 212);
+    padding: 5px;
+    color: rgb(1, 2, 1);
+    overflow: auto;
+}
+.tooltip {
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+.tooltip .tooltip-about {
+    visibility: hidden;
+    width: 150px;
+    border: 2px solid green;
+    color: red;
+    background-color: rgb(91, 175, 102);
+    position: absolute;;
+    top: 20px;
+    left: 60px;
+    border-radius: 5px;
+    z-index: 1;
+    padding: 5px;
+}
+
+.tooltip:hover .tooltip-about{
+    visibility: visible;color: rgb(66, 248, 10);
+    
+    
+
+}
+.tooltip:hover {
+    color: rgb(142, 9, 230);
+    text-decoration: underline;
+    font-size: 20px;
+}

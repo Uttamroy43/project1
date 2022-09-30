@@ -1,0 +1,56 @@
+/*h1 {
+    text-shadow: 5px 3px 5px red;
+}
+div {
+    background-color:red;
+    border: 1px solid green;
+    box-shadow: 10px -15px 5px royalblue;
+    width: 200px;
+    
+}*/
+
+
+/*...Card using CSS start...*/
+
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 3px rgba(22, 20, 20, 0.938);
+}
+.img-info {
+    width: 100%;
+
+}
+.card-body {
+    padding: 5px;
+    background-color: rgba(45, 7, 214, 0.884);
+    
+}
+
+.card-body .card-title {
+
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(247, 250, 246);
+    
+
+
+}
+
+.card-body .crad-description {
+    text-align: justify;
+    line-height: 1.5;
+    color: white;
+}
+
+.card:hover {
+    box-shadow: 6px 12px 10px white;
+}
